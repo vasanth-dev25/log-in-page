@@ -126,9 +126,9 @@ body{
     body{
         width:100%;
         height:100vh;
-        display:flex;
+        /* display:flex;
         jusitify-content:center;
-        align-items:center;
+        align-items:center; */
     .potrait{
         display: none;
     }
@@ -156,6 +156,7 @@ body{
     }
 
 }
+
 
 
 
