@@ -133,7 +133,9 @@ body{
         display: none;
     }
     .login{
-        display:block;
+        display:flex;
+        jusitify-content:center;
+        align-items:center;
         padding: 10px;
         margin: 0px;
     }
@@ -154,6 +156,7 @@ body{
     }
 
 }
+
 
 
 
