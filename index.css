@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    background-color: black;
+}
+.login{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 50px;
+   }
+   .potrait{
+    flex-basis: 50%;
+   }
+.form{
+    flex-basis: 50%;
+}
+.logo h4{
+    padding: 10px;
+}
+.greet h1{
+    font-size: 30px;
+    padding: 10px 5px;
+}
+.greet p{
+    color: grey;
+    padding: 0px 5px;
+}
+.input{
+    padding: 10px 5px;
+} 
+.input h2{
+    padding: 10px 0px;
+}
+#cont{
+    font-size: 26px;
+    background-color: #ffffff68;
+    border-radius: 10px;
+    width: 100%;
+    padding:5px 5px;
+    border: none;
+}
+::placeholder{
+    color: rgb(209, 208, 208);
+    text-align: left;
+    font-size: 15px;
+    padding-left:10px ;
+}
+.check{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.but{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    gap: 12px;
+}
+.but p,a{
+    color: white;
+    text-align: center;
+}
+.but1{
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+.but2{
+    background-color:black;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+   border: 1px white solid;
+
+}
+.but1:hover{
+    background-color: rgb(75, 74, 74);
+    color: white;
+}
+.but2:hover{
+    background-color:rgb(75, 74, 74);
+    color:white;
+}
+.input input{
+     color:white;
+}
+.bg{
+    width: 450px;
+    height: 500px;
+    background-color: rgb(160, 160, 160);
+    position: relative;
+    border-radius: 20px;
+} 
+.bg img{
+    position: absolute;
+    top: 116px;
+    left: -45px;
+    width: 120%;
+}
+.bg p{
+    color: rgb(255, 252, 252);
+    position: absolute;
+    bottom: 0px;
+    right:50px;
+    font-weight:600;
+    /* text-align: left; */
+    font-size: 10x;
+    padding: 10px;
+}
+/* mobile view */
+@media screen and (min-width:320px) and (max-width:768px){
+    .potrait{
+        display: none;
+    }
+    .login{
+        display:block;
+        /* width: 100%; */
+        padding: 10px;
+        margin: 0px;
+    }
+    .greet h1{
+        font-size: 27px;
+    }
+    .input h2{
+        font-size: 20px;
+    }
+    .check{
+        font-size: 14px;
+    }
+    .but p{
+        font-size: 13px;
+    }
+}
