@@ -20,6 +20,12 @@ body{
     gap: 80px;
     padding: 50px;
    }
+.lognin1{
+    display:block;  
+    color: white;
+    gap: 80px;
+    padding: 50px;
+}
    .potrait{
     flex-basis: 50%;
    }
@@ -155,6 +161,7 @@ body{
     }
 
 }
+
 
 
 
