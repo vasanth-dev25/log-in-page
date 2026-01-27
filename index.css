@@ -123,6 +123,9 @@ body{
 }
 /* mobile view */
 @media screen and (min-width:320px) and (max-width:768px){
+    body{
+        width:100%;
+        height:100vh;
     .potrait{
         display: none;
     }
@@ -146,3 +149,4 @@ body{
     }
 
 }
+
