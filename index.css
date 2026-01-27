@@ -135,6 +135,9 @@ body{
         padding: 10px;
         margin: 0px;
     }
+        #cont{
+            font-size:20px;
+        }
     .greet h1{
         font-size: 27px;
     }
@@ -149,4 +152,5 @@ body{
     }
 
 }
+
 
