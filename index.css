@@ -50,7 +50,7 @@ body{
     padding: 10px 0px;
     font-size:18px;
 }
-#cont{
+.cont{
     font-size: 20px;
     background-color: #ffffff68;
     border-radius: 10px;
@@ -63,6 +63,15 @@ body{
     text-align: left;
     font-size: 15px;
     padding-left:10px ;
+}
+.pass{
+    position: relative;
+}
+.pass img{
+    position: absolute;
+    right: 5px;
+    bottom: 8px;
+    cursor: pointer;
 }
 .check{
     display: flex;
@@ -169,6 +178,7 @@ body{
     }
 
 }
+
 
 
 
