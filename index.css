@@ -177,11 +177,15 @@ body{
     .check{
         font-size: 14px;
     }
+        .check span{
+            font-size:16px;
+        }
     .but p{
         font-size: 13px;
     }
 
 }
+
 
 
 
