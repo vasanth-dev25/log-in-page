@@ -77,8 +77,12 @@ body{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 20px;
 }
+.check span{
+    font-sixe:16px;
+}
+    
 .but{
     display: flex;
     flex-direction: column;
@@ -178,6 +182,7 @@ body{
     }
 
 }
+
 
 
 
