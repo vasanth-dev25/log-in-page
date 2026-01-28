@@ -17,13 +17,16 @@
             <div class="input">
                 <form action="">
                 <h2>Name</h2>
-                <input type="text"id="cont" placeholder="Enter your name">
+                <input type="text" class="cont" placeholder="Enter your name">
                 <h2>Email</h2>
-                <input type="mail" id="cont"placeholder="Enter your mail">
+                <input type="mail" class="cont"placeholder="Enter your mail">
                 <h2>Password</h2>
-                <input type="password" id="cont" placeholder="Enter your password"> <br>
+                <div class="pass">
+                <input type="password" class="cont" placeholder="Enter your password" id="password">
+                <img src="hidden.png" id="eyeicon" width="20px" alt="">
+                </div>
                 <h2>Mobile</h2>
-                <input type="text" id="cont" placeholder="Enter your number">
+                <input type="text" class="cont" placeholder="Enter your number">
                 </form>
                 </div>
             </div>
@@ -33,9 +36,24 @@
             </div>
             </section>            
          </section>
+    <script>
+           let eyeicon = document.getElementById("eyeicon");
+           let password = document.getElementById("password");
+           
+            eyeicon.onclick = function(){
+                if(password.type=="password"){
+                    password.type="text";
+                    eyeicon.src= "view.png";
+                }
+                else{
+                    password.type="password";
+                    eyeicon.src = "hidden.png";  
+                  }   
+            } 
+         </script>
 </body>
-
 </html>
+
 
 
 
