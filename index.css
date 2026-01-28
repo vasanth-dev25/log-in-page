@@ -69,21 +69,21 @@ body{
 }
 .pass img{
     position: absolute;
-    right: 5px;
-    bottom: 8px;
+    right: 10px;
+    bottom: 10px;
     cursor: pointer;
 }
 .check{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .but{
     display: flex;
     flex-direction: column;
     padding: 10px 0px;
-    gap: 12px;
+    gap: 18px;
 }
 .but p,a{
     color: white;
@@ -178,6 +178,7 @@ body{
     }
 
 }
+
 
 
 
